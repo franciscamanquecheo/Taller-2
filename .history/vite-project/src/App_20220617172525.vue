@@ -55,24 +55,15 @@ h1 {
   margin-top: 60px;
 }
 article#comandos{
-  
   display: inline-block;
   text-align: left;
   border: 1px solid black;
-  margin-left: 20px;
 font-size: 30px;
-
-}
-input{
-   margin-left: 20px;
 }
 section{
   display: inline-block;
   margin: 0 auto;
   
   width: 100%;
-}
-template{
-  background-color: #2c3e50;
 }
 </style>

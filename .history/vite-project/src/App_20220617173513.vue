@@ -64,7 +64,7 @@ font-size: 30px;
 
 }
 input{
-   margin-left: 20px;
+   margin-left: inherit;
 }
 section{
   display: inline-block;

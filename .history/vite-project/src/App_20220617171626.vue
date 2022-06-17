@@ -6,7 +6,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
  <h1>Juego del gato</h1>
-<section>
+
  <article id="comandos">
   Jugador 1:
   <input type="text" id="jugador1"><br><br>
@@ -42,7 +42,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 
 
-</section>
+
 </template>
 
 <style>
@@ -53,26 +53,5 @@ h1 {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-}
-article#comandos{
-  
-  display: inline-block;
-  text-align: left;
-  border: 1px solid black;
-  margin-left: 20px;
-font-size: 30px;
-
-}
-input{
-   margin-left: 20px;
-}
-section{
-  display: inline-block;
-  margin: 0 auto;
-  
-  width: 100%;
-}
-template{
-  background-color: #2c3e50;
 }
 </style>
