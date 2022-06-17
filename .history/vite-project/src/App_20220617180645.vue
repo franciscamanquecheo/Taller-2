@@ -32,9 +32,19 @@ import HelloWorld from './components/HelloWorld.vue'
 
 
   </article>
+
+
+
+
+
+
+
+
+
+
+
 </section>
 </template>
-
 
 <style>
 h1 {
@@ -42,10 +52,9 @@ h1 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #4172a2;
+  color: #2c3e50;
   margin-top: 60px;
-  font-size: 50px;
-  
+  font-size: 70px;
 }
 article#comandos{
   margin-top: 50px;
@@ -69,7 +78,7 @@ article#Tablero{
    text-align: right;
 }
 article#Tablero input{
-border: 1px solid rebeccapurple;
+
   font-size: 6em;
   height: 100 px;
   width: 120px;

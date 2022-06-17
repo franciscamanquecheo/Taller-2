@@ -32,9 +32,19 @@ import HelloWorld from './components/HelloWorld.vue'
 
 
   </article>
+
+
+
+
+
+
+
+
+
+
+
 </section>
 </template>
-
 
 <style>
 h1 {

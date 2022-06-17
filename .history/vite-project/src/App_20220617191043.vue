@@ -34,7 +34,11 @@ import HelloWorld from './components/HelloWorld.vue'
   </article>
 </section>
 </template>
+<script type="text/javascript">
+  var inicio= false;
 
+
+</script>
 
 <style>
 h1 {

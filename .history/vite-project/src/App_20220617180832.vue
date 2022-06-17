@@ -32,9 +32,19 @@ import HelloWorld from './components/HelloWorld.vue'
 
 
   </article>
+
+
+
+
+
+
+
+
+
+
+
 </section>
 </template>
-
 
 <style>
 h1 {
@@ -63,13 +73,13 @@ padding-left: 1em;
 article#Tablero{
  
   display: inline-block;
- 
+ border: 1px solid rebeccapurple;
   margin: 2em;
   width: 50%;
    text-align: right;
 }
 article#Tablero input{
-border: 1px solid rebeccapurple;
+
   font-size: 6em;
   height: 100 px;
   width: 120px;

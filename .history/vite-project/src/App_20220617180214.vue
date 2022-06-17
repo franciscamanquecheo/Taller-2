@@ -32,23 +32,31 @@ import HelloWorld from './components/HelloWorld.vue'
 
 
   </article>
+
+
+
+
+
+
+
+
+
+
+
 </section>
 </template>
 
-
 <style>
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #4172a2;
+  color: #2c3e50;
   margin-top: 60px;
-  font-size: 50px;
-  
 }
 article#comandos{
-  margin-top: 50px;
+  margin-top: 30px;
   
   display: inline-block;
   text-align: left;
@@ -58,21 +66,19 @@ font-size: 30px;
 vertical-align: top;
 min-height: 300px;
 width: 25%;
-padding-left: 1em;
 }
 article#Tablero{
  
   display: inline-block;
- 
-  margin: 2em;
+  margin: 1em;
   width: 50%;
    text-align: right;
 }
 article#Tablero input{
-border: 1px solid rebeccapurple;
-  font-size: 6em;
+
+  font-size: 5em;
   height: 100 px;
-  width: 120px;
+  width: 110px;
   margin: 10px;
 
 }
@@ -84,9 +90,9 @@ input[type="text"]{
 }
 input[type="button"]#comenzar{
   font-size: 0.8em;
-  margin-top: 1em;
+  margin-top: 2em;
   padding: 0.7em;
-  margin-left: 6em;
+  margin-left: 5em;
  
 }
   
