@@ -1,9 +1,7 @@
 <script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import { ButtonHTMLAttributes } from 'vue';
 import HelloWorld from './components/HelloWorld.vue'
-//Intente hacer el sript pero no se como trabajrlo con vue
 var inicio = false;
 var turno =0;
 var tablero = new Array();
@@ -16,28 +14,18 @@ function iniciar(){
   var jugador1 = document.getElementById("jugador1");
   var jugador2 = document.getElementById("jugador2");
 }
-function presionar(boton: { value: string; }){
-
+function presionar(boton){
 if(inicio == true){
   if(turno ==1 && boton.value==""){
     turno =2;
     boton.value="X";
-  }else{
-    if(turno==2 && boton.value==""){
-       turno =1;
-    boton.value="O";
-    }
   }
 
 }
 }
-
 </script>
 
-
-
 <template>
-
  <h1>Juego del gato</h1>
 <section>
  <article id="comandos">
@@ -50,28 +38,23 @@ if(inicio == true){
   <label id="TurnoJugador"></label>
  </article>
   <article id="Tablero">
-    <input type="button" id="casilla1" onclick="presionar(this)">
-    <input type="button" id="casilla2" onclick="presionar(this)">
-    <input type="button" id="casilla3" onclick="presionar(this)"><br><br>
+    <input type="button" id="casilla1">
+    <input type="button" id="casilla2">
+    <input type="button" id="casilla3"><br><br>
 
-    <input type="button" id="casilla4" onclick="presionar(this)">
-    <input type="button" id="casilla5" onclick="presionar(this)">
-    <input type="button" id="casilla6" onclick="presionar(this)"><br><br>
+    <input type="button" id="casilla4">
+    <input type="button" id="casilla5">
+    <input type="button" id="casilla6"><br><br>
 
-    <input type="button" id="casilla7" onclick="presionar(this)">
-    <input type="button" id="casilla8" onclick="presionar(this)">
-    <input type="button" id="casilla9" onclick="presionar(this)">
+    <input type="button" id="casilla7">
+    <input type="button" id="casilla8">
+    <input type="button" id="casilla9">
 
 
 
   </article>
 </section>
 </template>
-
-
-
-
-
 
 
 <style>

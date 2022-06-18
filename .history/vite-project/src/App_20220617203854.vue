@@ -3,7 +3,7 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import { ButtonHTMLAttributes } from 'vue';
 import HelloWorld from './components/HelloWorld.vue'
-//Intente hacer el sript pero no se como trabajrlo con vue
+
 var inicio = false;
 var turno =0;
 var tablero = new Array();
